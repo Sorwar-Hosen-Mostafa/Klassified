@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flash_screen_background"
+   >
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/app_logo"
+        android:layout_centerVertical="true"
+        android:tint="@android:color/white"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/app_flash_screen_text"
+        android:layout_below="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="A TEAM ALFA PRODUCT"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

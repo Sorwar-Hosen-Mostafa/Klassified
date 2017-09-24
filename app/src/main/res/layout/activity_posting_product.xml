@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/main_toolbar" android:id="@+id/toolbar"></include>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars = "vertical"
+        android:scrollbarStyle="insideInset"
+        >
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:context="com.etrade.PostingProductActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_product_category"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:layout_weight="0.02"
+                    android:ems="10"
+                    android:hint="Choose a Category" >
+                    <requestFocus />
+                </AutoCompleteTextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_product_type"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:ems="10"
+                    android:hint="Choose a Type" >
+
+                </AutoCompleteTextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_product_brand"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.02"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:ems="10"
+                    android:hint="Choose a Brand" >
+                </AutoCompleteTextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/txt_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:hint="Model"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_location"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:hint="Choose a Location" >
+
+
+                </AutoCompleteTextView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/take_photo_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:text="Capture" />
+
+                <Button
+                    android:id="@+id/chose_photo_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:text="Choose" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ffffff"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/txt_condition"
+                    android:padding="10dp"
+                    android:background="@drawable/border_edittext"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:ems="10"
+                    android:hint="Condition" >
+
+                </AutoCompleteTextView>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/descriptionET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/border_edittext"
+                android:hint="Description..."
+                android:inputType="textMultiLine" />
+            <EditText
+                android:id="@+id/priceET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/border_edittext"
+                android:hint="Price(Tk)"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:text="Post Product" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/all_ads"
+        android:icon="@drawable/search_icon"
+        android:title="All Advertisements">option1
+    </item>
+        </group>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/my_account"
+        android:icon="@drawable/acount_icon"
+        android:title="My Account">option2
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings_icon"
+        android:title="Settings">option3
+    </item>
+
+    </group>
+
+</menu>

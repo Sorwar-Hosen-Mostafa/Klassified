@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        xmlns:design="http://schemas.android.com/apk/res-auto">
+        <include layout="@layout/main_toolbar" android:id="@id/toolbar"></include>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:layout_width="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                tools:context="com.example.jibunnisa.alfaklassify.Activity.ProductDetailsActivity"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/acount_icon"
+                    android:id="@+id/product_image_thumb" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center_vertical"
+                    android:textSize="23sp"
+                    android:text="Apple iPhone 5s 32GB Intenct Original"
+                    android:textStyle="bold"
+                    android:id="@+id/Product_Title_TV" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Price"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Product_Price_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="56858"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Product_Description_TV"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apple iPhone 5s 32GB Intenct Original Apple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct OriginalApple iPhone 5s 32GB Intenct Original"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Location"
+                    android:textStyle="bold"
+                   />
+
+                <TextView
+                    android:id="@+id/Product_Location_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mirpur"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Condition"
+                    android:textStyle="bold"
+                   />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="New"
+                    android:id="@+id/Product_Condition_TV" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Brand"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Iphone"
+                    android:id="@+id/Product_Brand_TV" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Model"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="5s"
+                    android:id="@+id/Product_Model_TV" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Categroy"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Mobile Phone"
+                    android:id="@+id/Product_Category_TV" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Type"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Mobile Phone"
+                    android:id="@+id/Product_Type_TV" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:text="Posted"
+                    android:textStyle="bold"
+                   />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="34\53\63 89:00pm"
+                    android:id="@+id/Product_Posted_TV" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:id="@+id/bottom_nevigation_view"
+            android:layout_height="0dp"
+            design:itemIconTint="@color/bnv_tab_item_foreground"
+            design:itemTextColor="@color/bnv_tab_item_foreground"
+            android:layout_weight="1"
+           ></android.support.design.widget.BottomNavigationView>
+
+    </LinearLayout>
+
+
+</layout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802739446589",
+    "firebase_url": "https://alfaklassify.firebaseio.com",
+    "project_id": "alfaklassify",
+    "storage_bucket": "alfaklassify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802739446589:android:313e7c66bb1bdee9",
+        "android_client_info": {
+          "package_name": "com.example.jibunnisa.alfaklassify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802739446589-4v04b9a3pqaaq9bottu6npm9sj1hr3j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jibunnisa.alfaklassify",
+            "certificate_hash": "ffba99418b8d21e58bcb3e75289624142c1948f0"
+          }
+        },
+        {
+          "client_id": "802739446589-6cv9gv849a25g75ujnn1cmq2jk6qagsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3hKhKetqpyc0gzbeTOE-45cmZm-iypBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802739446589-6cv9gv849a25g75ujnn1cmq2jk6qagsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

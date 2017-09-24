@@ -1,0 +1,28 @@
+<layout xmlns:design="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.jibunnisa.alfaklassify.Fragments.MyAccountFragment">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/child_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+        </FrameLayout>
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:id="@+id/bottom_nevigation_view"
+            android:layout_height="0dp"
+            design:itemIconTint="@color/bnv_tab_item_foreground"
+            design:itemTextColor="@color/bnv_tab_item_foreground"
+            android:layout_weight="1"
+            design:menu="@menu/bottom_menu"></android.support.design.widget.BottomNavigationView>
+
+    </LinearLayout>
+</layout>
+

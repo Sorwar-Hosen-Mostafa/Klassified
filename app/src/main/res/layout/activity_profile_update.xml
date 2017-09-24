@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/main_toolbar" android:id="@+id/toolbar"></include>
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="PROFILE MODIFICATION"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/profileImage"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/acount_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <EditText
+
+            android:inputType="textPersonName"
+            android:id="@+id/fullNameET"
+            android:hint="Full Name"
+            android:background="@drawable/border_edittext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/contactET"
+            android:hint="Contact No"
+            android:background="@drawable/border_edittext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/addressET"
+            android:hint="Address"
+            android:background="@drawable/border_edittext"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:background="@drawable/border_button"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/updateBtn"
+                android:textSize="15sp"
+                android:background="@drawable/border_button"
+                android:layout_width="0dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Update"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
